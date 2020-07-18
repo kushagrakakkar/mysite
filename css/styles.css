@@ -1,0 +1,171 @@
+#title{
+  background-color: #ff4c68;
+  padding-bottom: 7%;
+  padding-left: 2%;
+}
+
+.navbar{
+  margin-right: 5%;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  margin-left: 3%;
+
+}
+.nav-item{
+  font-size: 1.15rem;
+  font-weight: bold;
+
+}
+
+body{
+  font-family: "Ubuntu";
+}
+
+
+h1{
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.main-heading{
+color: #fff;
+}
+
+.row{
+  margin: 0 5% 0 0;
+  font-family: "Montserrat";
+  }
+.main-row{
+  margin-left: 1.5rem
+}
+
+.col-lg-4{
+  padding: 5%;
+}
+.sec2-heading{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.container-fluid{
+  padding: 3% 10% 2% 3%;
+}
+
+
+
+.dog-pic{
+transform: rotate(25deg);
+width: 15rem;
+position: absolute;
+margin-left: 30%
+
+}
+
+#features{
+  text-align: center;
+  margin-left: 4%;
+  background-color: #fff;
+  position: relative;
+    z-index: 1;
+    padding:5% 0;
+
+}
+.fas{
+  color: #ef8172;
+  font-size: 4rem;
+  margin-bottom: 10%;
+}
+.fas:hover{
+  color: #ff4c68;
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 3% 10%;
+  color: #fff;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+
+}
+#testimonials{
+  text-align: center;
+}
+.image-carousel{
+  border-radius: 100%;
+  width: 20%;
+  margin: 2%;
+}
+.carousel-item {
+  padding-left: 4%;
+}
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 4% 10%;
+}
+.img-press{
+  width: 15%;
+}
+
+#pricing{
+  text-align: center;
+  padding:2% 0;
+}
+
+#cta{
+  background-color:#ff4c68;
+  text-align: center;
+  padding: 5% 10%;
+}
+h3{
+  font-family: 'Montserrat';
+  font-weight: 900;
+}
+.cta-text{
+font-size: 3rem;
+padding-bottom: 5%;
+color: #fff;
+line-height: 1.5;
+}
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 2% 0 0 0;
+
+}
+
+.foot{
+  color:#33333;
+  padding-top: 2%;
+
+}
+.foot-icon{
+  padding: 0 1%;
+  font-size: 1.5rem;
+
+}
+
+@media (max-width:1028px) {
+
+#title{
+  text-align: center;
+}
+  .dog-pic{
+    position: static;
+    transform: rotate(0);
+    margin-left: 0;
+  }
+  .container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+  }
