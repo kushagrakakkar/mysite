@@ -169,3 +169,7 @@ line-height: 1.5;
     padding-right: 0;
     padding-left: 0;
   }
+  .cards-data{
+    padding-left: 1%;
+  }
+}
